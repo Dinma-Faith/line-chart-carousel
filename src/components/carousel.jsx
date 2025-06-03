@@ -20,7 +20,7 @@ const Carousel = () => {
     },
     breakpoints: {
       "(min-width: 768px)": {
-        slides: { perView: 1.7, spacing: 10 },
+        slides: { perView: 1.7, spacing: 16 },
       },
     },
   });
