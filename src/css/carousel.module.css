@@ -1,0 +1,57 @@
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+  /* padding: 0 2rem; */
+}
+
+.slider {
+  display: flex;
+}
+
+.slide {
+  transition: all 0.3s ease;
+}
+
+.big {
+  flex: 0 0 65%;
+}
+
+.small {
+  flex: 0 0 35%;
+  opacity: 0.6;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.arrowButton {
+  background: white;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+}
+
+.arrowButton img {
+  width: 24px;
+  height: 24px;
+}
+
+.arrowButton:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

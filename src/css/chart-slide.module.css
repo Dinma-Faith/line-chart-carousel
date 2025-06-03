@@ -1,0 +1,31 @@
+.chartSlide {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.chartWrapper {
+  height: 300px;
+  width: 100%;
+}
+
+.chartBox {
+  background: #fff;
+  padding: 2rem 1rem;
+  flex: 1;
+  max-width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+
+.chartBox h3 {
+  margin-bottom: 1rem;
+}
+
+.chartBox canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
