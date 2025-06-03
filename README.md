@@ -6,10 +6,10 @@ This project is a **carousel chart component** built with **React** and **Chart.
 
 ### 🛠 Tech Stack
 
-* **React** (with functional components and hooks)
-* **Chart.js** (for line chart rendering)
-* **CSS Modules** (for scoped, component-specific styling)
-* **Vite** (for fast development and build)
+- **React** (with functional components and hooks)
+- **Chart.js** (for line chart rendering)
+- **CSS Modules** (for scoped, component-specific styling)
+- **Vite** (for fast development and build)
 
 ---
 
@@ -64,10 +64,10 @@ npm run dev
 
 ### 🧩 Features
 
-* Interactive chart carousel with navigation arrows
-* Responsive layout with appropriate spacing
-* Modular component design
-* Graceful handling of edge cases (e.g., disabling prev/next buttons when needed)
+- Interactive chart carousel with navigation arrows
+- Responsive layout with appropriate spacing
+- Modular component design
+- Graceful handling of edge cases (e.g., disabling prev/next buttons when needed)
 
 ---
 
