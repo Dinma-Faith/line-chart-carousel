@@ -15,12 +15,12 @@ const Carousel = () => {
       setCurrentSlide(slider.track.details.rel);
     },
     slides: {
-      perView: 1.3,
-      spacing: 10,
+      perView: 1.5,
+      spacing: 16,
     },
     breakpoints: {
       "(min-width: 768px)": {
-        slides: { perView: 1.7, spacing: 16 },
+        slides: { perView: 1.5, spacing: 16 },
       },
     },
   });
