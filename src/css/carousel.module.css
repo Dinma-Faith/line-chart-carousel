@@ -1,8 +1,9 @@
 .carouselContainer {
   position: relative;
-  width: 100%;
-  overflow: visible;
-  /* padding: 0 2rem; */
+  overflow: hidden;
+  padding: 0 2rem;
+  background-color: #f9f9f9;
+  margin-block: 1rem;
 }
 
 .slider {
@@ -25,8 +26,8 @@
 .arrows {
   position: absolute;
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 12px;
+  right: 12px;
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
@@ -36,9 +37,9 @@
 }
 
 .arrowButton {
-  background: white;
+  background: #fff;
   border: none;
-  padding: 0.4rem;
+  padding: 0.15rem;
   border-radius: 50%;
   cursor: pointer;
   pointer-events: auto;

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import CarouselArrows from "./carousel-arrows";
 import ChartSlide from "./chart-slide";
 import styles from "../css/carousel.module.css";
@@ -15,12 +15,12 @@ const Carousel = () => {
       setCurrentSlide(slider.track.details.rel);
     },
     slides: {
-      perView: 1.3,
-      spacing: 10,
+      perView: 1.5,
+      spacing: 16,
     },
     breakpoints: {
       "(min-width: 768px)": {
-        slides: { perView: 1.7, spacing: 10 },
+        slides: { perView: 1.5, spacing: 16 },
       },
     },
   });
@@ -31,6 +31,7 @@ const Carousel = () => {
         {slides.map((type, index) => (
           <div
             key={type}
+            /**global classes from the Keen Slider library : combining library classes with scoped ones. **/
             className={`keen-slider__slide ${styles.slide} ${
               index === currentSlide ? styles.big : styles.small
             }`}>
